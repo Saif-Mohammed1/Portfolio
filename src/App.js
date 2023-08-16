@@ -3,7 +3,7 @@ import Spinner from "./components/spinner/spinner.component.jsx";
 import { Route, Routes } from "react-router-dom";
 import Collection from "./components/collection/collection.component";
 const Nav = lazy(() => import("./components/route/nav/nav.component"));
-const Header = lazy(() => import("./components/header/header.component"));
+// const Header = lazy(() => import("./components/header/header.component"));
 const About = lazy(() => import("./components/about/about.component"));
 
 const App = () => {

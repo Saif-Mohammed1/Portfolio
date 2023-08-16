@@ -24,25 +24,21 @@ const Projects = () => {
       name: "Shop&firebase",
       Url: "https://superlative-chebakia-1f1043.netlify.app/",
     },
-    ,
     {
       img: Memory,
       name: "Memory-Game",
       Url: "https://saif-mohammed1.github.io/Memory-Game/",
     },
-    ,
     {
       img: To,
       name: "To-DO-List",
       Url: "https://saif-mohammed1.github.io/To-DO-List/",
     },
-    ,
     {
       img: Weather,
       name: "Weather-App",
       Url: "https://fastidious-cupcake-4ef5a8.netlify.app/",
     },
-    ,
     {
       img: Template1,
       name: "HTML_CSS_Template_One",
