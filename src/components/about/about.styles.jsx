@@ -10,9 +10,9 @@ export const AboutContainer = styled.section`
     flex-direction: column;
     height: 60vh;
   }
-  /* @media (max-width: 511px) {
-    height: 77vh;
-  } */
+  @media (max-width: 511px) {
+    height: 70vh;
+  }
 `;
 export const Container = styled.div`
   border: solid 5px yellow;
