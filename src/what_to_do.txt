@@ -1,0 +1,10 @@
+nav
+1-header  // data email local ...ect
+about
+services
+2-skills 
+3-projects let 4 project in main page and let it move then the rest in project page 
+4-contact
+
+
+use chat to give u sumrise of pic that u want 

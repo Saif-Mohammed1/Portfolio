@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { Suspense, lazy } from "react";
+import Spinner from "./components/spinner/spinner.component.jsx";
+import { Route, Routes } from "react-router-dom";
+import Collection from "./components/collection/collection.component";
+const Nav = lazy(() => import("./components/route/nav/nav.component"));
+const Header = lazy(() => import("./components/header/header.component"));
+const About = lazy(() => import("./components/about/about.component"));
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Suspense fallback={<Spinner />}>
+      <Routes>
+        <Route path="/" element={<Nav />}>
+          <Route index element={<Collection />} />
+          <Route path="about" element={<About />} />
+        </Route>
+      </Routes>
+    </Suspense>
   );
-}
+};
 
 export default App;
