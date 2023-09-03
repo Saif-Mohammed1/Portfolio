@@ -26,7 +26,7 @@ const Header = () => {
         <Details>
           <div>
             <h3>Email</h3>
-            <span>saif.mohammed@gmail.com</span>
+            <span>saif.mohammed086189@gmail.com</span>
           </div>
           <div className="special">
             <h3>Phone</h3>
