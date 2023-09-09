@@ -5,6 +5,7 @@ import {
   Image,
   ImageContainer,
 } from "./projects.styles";
+import Ecommerce from "../assets/image/ecommerce.png";
 import Shop from "../assets/image/shop.png";
 import Memory from "../assets/image/Memory-Game.png";
 import To from "../assets/image/TO-DO-LIST.png";
@@ -19,6 +20,11 @@ import Sunnyside from "../assets/image/SunnySide.png";
 
 const Projects = () => {
   const project = [
+    {
+      img: Ecommerce,
+      name: "Ecommerce&Laravel",
+      Url: "https://ecommerce-v2-livid.vercel.app/",
+    },
     {
       img: Shop,
       name: "Shop&firebase",

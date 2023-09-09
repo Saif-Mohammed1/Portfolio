@@ -48,9 +48,9 @@ export const AboutMe = styled.div`
   p {
     color: #afa9a9;
   }
-  button {
+  a {
     padding: 5px 4px;
-    width: 70px;
+    width: 60px;
     cursor: pointer;
     font-weight: 800;
     color: white;
@@ -58,6 +58,9 @@ export const AboutMe = styled.div`
     border: none;
     border-radius: 7px;
     margin: 15px 0;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 2px;
     &:hover {
       opacity: 0.8;
     }

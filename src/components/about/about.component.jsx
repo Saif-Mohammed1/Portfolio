@@ -6,6 +6,8 @@ import {
   Container,
   ImageContainer,
 } from "./about.styles";
+
+import Resume from "../assets/Resume.pdf";
 const About = () => {
   return (
     <AboutContainer>
@@ -21,7 +23,10 @@ const About = () => {
           I'm keen to use my skills to help people with their projects. I can
           use my skills to build E-commerce, landing page ...
         </p>
-        <button>CV</button>
+        <a href={Resume} download="Saif_mohammed_Resume.pdf">
+          CV
+        </a>
+        {/* <button>CV</button> */}
       </AboutMe>
     </AboutContainer>
   );
