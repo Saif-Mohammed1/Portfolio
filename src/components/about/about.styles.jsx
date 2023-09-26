@@ -2,17 +2,17 @@ import styled from "styled-components";
 
 export const AboutContainer = styled.section`
   display: flex;
-  height: 50vh;
+  /* height: 50vh; */
   padding: 50px 12px 0;
   justify-content: space-between;
   background-color: #323232f5;
   @media (max-width: 770px) {
     flex-direction: column;
-    height: 60vh;
+    /* height: 60vh; */
   }
-  @media (max-width: 511px) {
+  /* @media (max-width: 511px) {
     height: 70vh;
-  }
+  } */
 `;
 export const Container = styled.div`
   border: solid 5px yellow;
@@ -37,6 +37,7 @@ export const AboutMe = styled.div`
   width: 60%;
   @media (max-width: 770px) {
     width: 100%;
+    margin-top: 10px;
   }
   h2 {
     color: #edc45b9e;
