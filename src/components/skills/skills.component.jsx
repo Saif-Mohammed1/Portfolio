@@ -24,6 +24,7 @@ const Skills = () => {
     BootStrap: FaBootstrap,
     JavaScript: IoLogoJavascript,
     React: BiLogoReact,
+    "React-Native": BiLogoReact,
     Redux: BiLogoRedux,
     "Styled-components": SiStyledcomponents,
     Firebase: BiLogoFirebase,

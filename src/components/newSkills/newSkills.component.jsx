@@ -4,7 +4,7 @@ import { Container, Cycle, ProgressDiv } from "./newSkills.styles";
 
 const NewSkills = () => {
   const progress = [
-    { title: "React-native", Icon: FaReact, prog: "25%" },
+    { title: "Material-UI", Icon: FaReact, prog: "25%" },
     { title: "Laravel", Icon: FaLaravel, prog: "35%" },
   ];
 
